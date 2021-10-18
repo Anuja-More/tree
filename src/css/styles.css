@@ -1,0 +1,46 @@
+body,
+html,
+#root,
+.wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.bar-wrapper {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.tree-wrapper {
+  height: 100%;
+}
+
+.list-toolbar {
+  margin: 15px 15px 0;
+}
+
+.rst__moveHandle,
+.rst__row {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.rst__rowContents {
+  border-color: #007bff;
+}
+
+.previous {
+  margin-left: 10px;
+}
+
+.next,
+.collapse {
+  margin-right: 10px;
+  margin-left: 5px;
+}
